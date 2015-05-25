@@ -29,6 +29,9 @@ map <C-l> <C-w>l
 " indentation
 autocmd FileType go :setlocal noexpandtab sw=2 ts=2 sts=2 " Two spaces real tab for Go files "
 autocmd FileType python :setlocal expandtab sw=4 ts=4 sts=4 " Four spaces for Python "
+autocmd FileType javascript :setlocal expandtab sw=2 ts=2 sts=2 " Twospaces for JS "
+autocmd FileType html :setlocal expandtab sw=2 ts=2 sts=2 " Twospaces for html "
+autocmd FileType css :setlocal expandtab sw=2 ts=2 sts=2 " Twospaces for css "
 
 " commenting
 filetype plugin on
