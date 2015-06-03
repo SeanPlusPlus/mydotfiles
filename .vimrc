@@ -42,3 +42,9 @@ let g:maplocalleader=","
 
 " line nums
 :set nu!
+
+" http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/
+let mapleader = "\<Space>"
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :wq<CR>
